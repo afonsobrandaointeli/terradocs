@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "exampleterraform"
+version = "0.1.0"
+description = "este �e um exemplo legal"
+authors = ["afonsolelis <afonsolelis@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.6.0"
+mkdocs-material = "^9.5.26"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
